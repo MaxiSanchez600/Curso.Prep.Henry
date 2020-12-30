@@ -112,13 +112,11 @@ function esPrimo(numero) {
     {
       if (numero%i == 0 && i != numero)
       {
-        esprimo = false;
-        return esprimo;
+        return false;
       }
       else
       {
-        esprimo = true;
-        return esprimo;
+        return true;
       }
     }
   }
